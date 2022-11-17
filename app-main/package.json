@@ -9,6 +9,7 @@
     "web": "expo start --web",
     "web:export": "expo export:web",
     "android": "expo run:android",
+    "android:reverse": "adb -s 2864ebdc443f7ece reverse tcp:8081 tcp:8081",
     "ios": "run-s pod-install run:ios",
     "run:ios": "expo run:ios",
     "pod-install": "pod-install",

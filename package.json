@@ -4,7 +4,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "example"
+      "example",
+      "app-*"
     ]
   },
   "publishConfig": {
@@ -24,6 +25,7 @@
     "build": "lerna run prepack",
     "publish": "lerna publish",
     "release": "run-s clean build publish",
+    "main": "yarn workspace app-main",
     "example": "yarn workspace @react-navigation/example"
   },
   "engines": {

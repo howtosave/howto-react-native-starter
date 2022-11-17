@@ -28,7 +28,7 @@
     "simple-import-sort/exports": "error"
   },
   "overrides": [{
-    "files":["example/e2e/tests/*.ts"],
+    "files":["example/e2e/tests/*.ts", "app-*/e2e/tests/*.ts"],
     "rules": {
       "jest/*": 0
     }
